@@ -18,12 +18,51 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #848484;
+}
+
+.sCElement{
+  /* filter: drop-shadow(-3px 5px 14px #000000);
+   */
+   /* border: 1px solid #D9D9D9; */
+   /* box-shadow: 0px 8px 16px 0px hsla(0, 0%, 0%, 0.102); */
+   box-shadow: 0px 8px 16px 0px #0000001A;
+
+
+}
+.sCElement::after{
+  content: "";
+  display: block;
+  /* background: #fff; */
+  /* border: 1px solid #D9D9D9; */
+z-index: 1;
+  position: absolute;
+  bottom: 30%;
+  right: -9px;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  /* box-shadow: inset 5px 5px 2px 2px rgb(0 0 0 / 0.15); */
+  box-shadow: inset 0px 8px 16px 0px #0000001A;
+
+}
+.sCElement::before{
+  content: "";
+    display: block;
+    /* background: #fff; */
+    position: absolute;
+    bottom: 30%;
+    left: -9px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    z-index: 1;
+    /* box-shadow: inset -5px 5px 2px 2px rgb(0 0 0 / 0.15); */
+    /* border: 1px solid #D9D9D9; */
+
+    box-shadow:inset 0px 8px 16px 0px #0000001A;
+
+   
 }
 
 @layer utilities {
