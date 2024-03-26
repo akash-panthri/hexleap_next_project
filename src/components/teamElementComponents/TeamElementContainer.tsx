@@ -1,5 +1,6 @@
 import React from "react";
 import OneTeamElement from "./OneTeamElement";
+import AdElement from "./AdElement";
 
 export default function TeamElementContainer() {
   return (
@@ -14,7 +15,7 @@ export default function TeamElementContainer() {
         <OneTeamElement />
         <OneTeamElement />
         <OneTeamElement />
-        <OneTeamElement />
+        <AdElement />
       </div>
       <button className="bg-[#2C9CF0] text-white py-[10px] px-[30px] self-center gap-[5px]">
         See More
