@@ -7,9 +7,12 @@ export default function SpotlightCollectionElementContainer() {
     <div className='flex flex-row justify-evenly items-center' >
 
 <CiSquareChevLeft className='text-5xl font-bold text-rockman-blue-300' />
+<div className="flex flex-row justify-evenly items-center">
+
         <SpotLightCollectionOneElement />
         <SpotLightCollectionOneElement />
         <SpotLightCollectionOneElement />
+</div>
         <CiSquareChevRight className='text-5xl font-bold text-rockman-blue-300' />
     </div>
   )
