@@ -21,10 +21,18 @@ const config: Config = {
       },
       colors: {
         'rockman-blue-300': '#2c9cf0',
+        'grayed':'#dfdfdf'
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
+    },
+    fontSize:{
+adspc:['20px', '24.2px'],
+addes:['12.8px', '19px'],
+tmhd:['17px', '20.57px'],
+tmtc:['12px', '14.52px'],
+tmdl:['14px', '16.94px'],
     },
     },
   },
