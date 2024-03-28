@@ -7,9 +7,10 @@ export default function OneTeamSpecs({datumDetails}:{datumDetails:Detail[]}) {
     <div>
       <div className="flex flex-row p-3 justify-between bg-[#F7F7F8] dark:bg-[#292B32]">
 
+{datumDetails.map(datumDetail=>{
+  return <OneTeamSpecDetail key={datumDetail.mark} datumDetail={datumDetail} />
+})}
 
-        <OneTeamSpecDetail />
-        <OneTeamSpecDetail />
       </div>
     </div>
   )
