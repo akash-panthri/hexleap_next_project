@@ -3,7 +3,7 @@
     ,
     {"id":2, "imgNo":2, "team":"Las Vegas Aviators","detail":[{"mark":"a","head":"Total Events","sol":"28 Events"},{"mark":"b","head":"Sports","sol":"Baseball"}]}
     ,
-    {"id":2, "imgNo":2, "team":"New Jersey Devils","detail":[{"mark":"a","head":"Total Events","sol":"15 Events"},{"mark":"b","head":"Sports","sol":"Ice Hockey"}]}
+    {"id":3, "imgNo":3, "team":"New Jersey Devils","detail":[{"mark":"a","head":"Total Events","sol":"15 Events"},{"mark":"b","head":"Sports","sol":"Ice Hockey"}]}
     ,
-    {"id":2, "imgNo":2, "team":"Las Vegas Aviators","detail":[{"mark":"a","head":"Total Events","sol":"28 Events"},{"mark":"b","head":"Sports","sol":"Baseball"}]}
+    {"id":4, "imgNo":2, "team":"Las Vegas Aviators","detail":[{"mark":"a","head":"Total Events","sol":"28 Events"},{"mark":"b","head":"Sports","sol":"Baseball"}]}
 ]
