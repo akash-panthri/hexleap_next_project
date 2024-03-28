@@ -1,6 +1,7 @@
 import React from "react";
 import OneTeamElement from "./OneTeamElement";
 import AdElement from "./AdElement";
+import teamElementData from '../../../data/teamElementData.json'
 
 export default function TeamElementContainer() {
   return (
@@ -12,10 +13,11 @@ export default function TeamElementContainer() {
         </div>
      
       <div className="flex flex-row mb-11 rounded-[3px]">
-        <OneTeamElement />
-        <OneTeamElement />
-        <OneTeamElement />
-        <OneTeamElement />
+        {teamElementData.map(teamElementDatum =>{
+
+       return <OneTeamElement key={teamElementDatum.id} teamElementDatum={teamElementDatum} />
+        })}
+      
         <AdElement />
       </div>
       <button className="bg-[#2C9CF0] text-white py-[10px] px-[30px] self-center gap-[5px]">
@@ -25,4 +27,3 @@ export default function TeamElementContainer() {
     </div>
   );
 }
-// [calc(84vw_-_22px)]

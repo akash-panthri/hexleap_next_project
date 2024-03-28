@@ -2,7 +2,14 @@ import Image from 'next/image'
 import React from 'react'
 import OneTeamSpecs from './OneTeamSpecs'
 
-export default function OneTeamElement() {
+interface Team {
+  id: number;
+  imgNo: number;
+  team: string;
+  detail: { mark: string; head: string; sol: string; }[];
+}
+
+export default function OneTeamElement({teamElementDatum}:{teamElementDatum:Team}) {
   return (
     <div className='p-[11px]  dark:bg-elem-dark bg-white content-between mx-3 shadow-spc w-[238.53px] h-[511px] dark:text-[#3B3E47]'>
       <>
