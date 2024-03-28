@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function AdElement() {
   return (
-    <div className='p-[10px] dark:bg-elem-dark bg-white  mx-3 shadow-spc w-[238.53px] h-[511px]'>
+    <div className='p-[10px] dark:bg-elem-dark bg-white shadow-spc w-[238.53px] h-[511px]'>
       <div className="">
 
       <Image src="/img/asd.png" alt='' width={218} height={218} />
