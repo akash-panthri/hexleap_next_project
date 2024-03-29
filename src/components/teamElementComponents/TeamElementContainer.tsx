@@ -5,7 +5,7 @@ import teamElementData from '../../../data/teamElementData.json'
 
 export default function TeamElementContainer() {
   return (
-    <div className="mx-[5%] md:mx-[10%] xl:w-[1240px] bg-[#f7f7f8] xl:mx-0 dark:bg-[#080807] my-[1vh] flex flex-col py-[2.5%]">
+    <div className="mx-[5%] md:mx-[10%] xl:w-[1240px] bg-[#f7f7f8] dark:bg-[#292b32] xl:mx-0 my-[1vh] flex flex-col py-[2.5%]">
 
      
         <div className="mb-7 w-full flex justify-center lg:justify-start">

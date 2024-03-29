@@ -6,14 +6,14 @@ export default function SpotlightCollectionElementContainer() {
   return (
     <div className='flex flex-row justify-evenly items-center' >
 
-<CiSquareChevLeft className='text-5xl font-bold text-rockman-blue-300' />
-<div className="flex flex-row justify-evenly items-center">
+<CiSquareChevLeft className=' hidden text-5xl font-bold text-rockman-blue-300 lg:block' />
+<div className="flex flex-row justify-evenly items-center flex-wrap">
 {spotlightData.map(spotlightDatum=>{
   return <SpotLightCollectionOneElement key={spotlightDatum.id} spotlightDatum={spotlightDatum} />
 })}
       
 </div>
-        <CiSquareChevRight className='text-5xl font-bold text-rockman-blue-300' />
+        <CiSquareChevRight className='hidden text-5xl font-bold text-rockman-blue-300 lg:block' />
     </div>
   )
 }
