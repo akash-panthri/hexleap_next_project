@@ -10,8 +10,9 @@ export default function Home() {
     <main className={` flex min-h-screen flex-col items-center justify-between py-24  dark:bg-gray-900 bg-gray-100`}>
      <div className="">
       <TeamElementContainer />
-      <SpotlightCollectionContainer />
+      {/* <SpotlightCollectionContainer /> */}
      </div>
+     <span className="w-[100%] bg-white h-[50px]"></span>
     </main>
     </>
   );

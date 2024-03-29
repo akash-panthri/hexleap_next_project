@@ -4,7 +4,8 @@ import React from 'react'
 export default function AdElement() {
   return (
     <div className='p-[10px] dark:bg-elem-dark bg-white shadow-spc w-[238.53px] h-[511px]'>
-      <div className="">
+      <div className="relative">
+        <span className='absolute bg-black text-white py-[3px] px-[15px] right-0 gap-[10px] font-inter font-addes font-bold'>Ad</span>
 
       <Image src="/img/asd.png" alt='' width={218} height={218} />
       </div>
